@@ -1,5 +1,5 @@
 {
-  "name": "chrome-i18n-shim",
+  "name": "chrome-extension-i18n-shim",
   "description": "chrome.i18n shim for testing purposes",
   "version": "0.1.0",
   "license": "MIT",

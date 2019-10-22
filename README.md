@@ -7,16 +7,16 @@ This project is an attempt to mimic the `chrome.i18n.getMessage` function for te
 Install the dependency
 
 ```bash
-yarn install chrome-i18n-shim
+yarn install chrome-extension-i18n-shim
 ```
 
 In a Jest setup file (when used in conjunction with jest-webextension-mock):
 
 ```javascript
 // jest.setup.js
-import { setupGetMessageSim } from 'chrome-i18n-shim';
+import { setupGetMessageSim } from 'chrome-extension-i18n-shim';
 // We want to load our default translations into our tests. See: https://twitter.com/kentcdodds/status/1181591171518230528
-import * as enMessages from './src/_locales/en/messages.json';
+import * as enMessages from './_locales/en/messages.json';
 
 const getMessage = setupGetMessageSim(enMessages);
 
