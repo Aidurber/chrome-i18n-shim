@@ -1,0 +1,21 @@
+{
+  "singleTokenMsg": {
+    "message": "I am a token with a $value$",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    }
+  },
+  "greetingName": {
+    "message": "$greeting$, $name$",
+    "placeholders": {
+      "greeting": {
+        "content": "$1"
+      },
+      "name": {
+        "content": "$2"
+      }
+    }
+  }
+}
