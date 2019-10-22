@@ -7,7 +7,7 @@ This project is an attempt to mimic the `chrome.i18n.getMessage` function for te
 Install the dependency
 
 ```bash
-yarn install chrome-extension-i18n-shim
+yarn add -D chrome-extension-i18n-shim
 ```
 
 In a Jest setup file (when used in conjunction with jest-webextension-mock):
