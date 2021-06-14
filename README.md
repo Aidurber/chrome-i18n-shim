@@ -1,6 +1,6 @@
 # Chrome i18n testing shim
 
-This project is an attempt to mimic the `chrome.i18n.getMessage` function for testing. It's easy to stub out `getMessage` with something like `jest.fn` but we actually want to minic the implementation so we can verify tokens.
+This project is an attempt to mimic the `chrome.i18n.getMessage` function for testing. It's easy to stub out `getMessage` with something like `jest.fn` but we actually want to mimic the implementation so we can verify tokens.
 
 # Setup
 
